@@ -7,14 +7,14 @@
   <a href="#requisitos">Requisitos</a> &#x2022;
   <a href="#tecnologias">Tecnologias</a> &#x2022;
   <a href="#como-executar-o-projeto">Como executar o projeto</a> &#x2022;
-  <a href="#Licença">Licença</a>
+  <a href="#licenca">Licença</a>
 </p>
 
 <img align="center" src="./.github/background.png" />
 
 <h2 id="sobre-o-projeto">Sobre o projeto</h2>
 
-A ideia do *move.it* é ajudar pessoas que ficam muito tempo na frente do computador e se esquecem de movimentar-se. Por isso o nome Move.it.
+A ideia do *move.it* é ajudar pessoas que ficam muito tempo na frente do computador e se esquecem de movimentar-se. Por isso o nome move.it.
 
 <h2 id="requisitos">Requisitos</h2>
 
@@ -62,6 +62,6 @@ A ideia do *move.it* é ajudar pessoas que ficam muito tempo na frente do compu
   npm run start
   ```
 
-<h2 id="Licença">Licença</h2>
+<h2 id="licenca">Licença</h2>
 
 Esse projeto está sob a licença MIT. Veja o arquivo <a href="./LICENSE">LICENSE</a> para mais detalhes.
