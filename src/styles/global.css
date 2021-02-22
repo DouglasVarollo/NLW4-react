@@ -50,3 +50,42 @@ textarea {
 button {
   cursor: pointer;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 992px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+}
+
+.experience-bar {
+  display: flex;
+  align-items: center;
+}
+
+.experience-bar > div {
+  position: relative;
+  flex: 1;
+  height: 4px;
+  margin: 0 1.5rem;
+  border-radius: 4px;
+  background-color: var(--gray-line);
+}
+
+.experience-bar > div > div {
+  height: 4px;
+  border-radius: 4px;
+  background-color: var(--green);
+}
+
+.experience-bar span {
+  font-size: 1rem;
+}
+
+.experience-bar .current-experience {
+  position: absolute;
+  top: 12px;
+  transform: translateX(-50%);
+}
