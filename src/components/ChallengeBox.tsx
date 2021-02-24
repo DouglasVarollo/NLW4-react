@@ -19,7 +19,9 @@ export function ChallengeBox() {
 
           <footer>
             <button className={styles.challengeFailedButton}>Falhei</button>
-            <button className={styles.challengeSucceededButton}>Completei</button>
+            <button className={styles.challengeSucceededButton}>
+              Completei
+            </button>
           </footer>
         </div>
       ) : (
