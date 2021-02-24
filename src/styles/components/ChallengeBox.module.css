@@ -1,0 +1,101 @@
+.challengeBoxContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 1.5rem 2rem;
+  border-radius: 5px;
+  background-color: var(--white);
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.challengeNotActive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.challengeNotActive strong {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.challengeNotActive p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 70%;
+  margin-top: 3rem;
+  line-height: 1.4;
+}
+
+.challengeNotActive p img {
+  margin-bottom: 1rem;
+}
+
+.challengeActive {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.challengeActive header {
+  padding: 0 2rem 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--blue);
+  border-bottom: 1px solid var(--gray-line);
+}
+
+.challengeActive main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.challengeActive main strong {
+  margin: 1.5rem 0 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--title);
+}
+
+.challengeActive main p {
+  line-height: 1.5;
+}
+
+.challengeActive footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.challengeActive footer button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--white);
+  border: 0;
+  transition: filter 0.2s;
+}
+
+.challengeActive footer button:hover {
+  filter: brightness(0.9);
+}
+
+.challengeActive footer button.challengeFailedButton {
+  background-color: var(--red);
+}
+
+.challengeActive footer button.challengeSucceededButton {
+  background-color: var(--green);
+}
