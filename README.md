@@ -56,10 +56,10 @@ A ideia do *move.it* é ajudar pessoas que ficam muito tempo na frente do compu
 
   ```bash
   # Com yarn
-  yarn start
+  yarn dev
 
   # Com npm
-  npm run start
+  npm run dev
   ```
 
 <h2 id="licenca">Licença</h2>
