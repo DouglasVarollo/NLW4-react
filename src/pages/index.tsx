@@ -53,9 +53,9 @@ export const getServerSideProps: GetServerSideProps = async function (ctx) {
 
   return {
     props: {
-      challengesCompleted: Number(challengesCompleted),
-      currentExperience: Number(currentExperience),
-      level: Number(level)
+      challengesCompleted: Number(challengesCompleted ?? 0),
+      currentExperience: Number(currentExperience ?? 0),
+      level: Number(level ?? 1)
     }
   };
 };
